@@ -1,0 +1,1 @@
+[{'Stt': '1', 'DonVi': 'Sở công thương', 'TonTruoc': '10', 'NhanTrongKy': '100', 'DaGiaiQuyet': '70', 'KhongGiaiQuyet': '30', 'BoSung': '2'}, {'Stt': '2', 'DonVi': 'Sở Nội vụ', 'TonTruoc': '30', 'NhanTrongKy': '200', 'DaGiaiQuyet': '150', 'KhongGiaiQuyet': '50', 'BoSung': '10'}]
