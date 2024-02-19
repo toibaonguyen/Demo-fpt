@@ -1,32 +1,32 @@
-Bước 1: Cài đặt python 3.12.1
-Bước 2: Clone source này về
-Bước 3: Mở terminal và chạy các lệnh sau để tạo môi trường ảo:
+- Bước 1: Cài đặt python 3.12.1
+- Bước 2: Clone source này về
+- Bước 3: Mở terminal và chạy các lệnh sau để tạo môi trường ảo:
   py -3.12.1 -m pip install virtualenv
   py -3.12.1 -m virtualenv venv
-Bước 4: Kích hoạt môi trường ảo bằng lệnh sau:
+- Bước 4: Kích hoạt môi trường ảo bằng lệnh sau:
   venv\Scripts\activate
-Bước 5: Chạy các lệnh sau để cài các thư viện cần thiết:
+- Bước 5: Chạy các lệnh sau để cài các thư viện cần thiết:
   pip install opencv-python
   pip install numpy
   pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
   pip install easyocr
-Bước 6: Cài các extension sau:
+- Bước 6: Cài các extension sau:
 
 ![image](https://github.com/toibaonguyen/Demo-fpt/assets/103349629/13596372-affa-4041-bf17-edd364d9f75b)
 
-Bước 7: Bỏ ảnh đúng format của table vào thư mục images:
+- Bước 7: Bỏ ảnh đúng format của table vào thư mục images:
 
 ![image](https://github.com/toibaonguyen/Demo-fpt/assets/103349629/e4486fff-5d73-49be-a846-8ad1f5350466)
 
-Bước 8: Đặt giá trị đường dẫn của ảnh vào biến path_to_image trong file main.py:
+- Bước 8: Đặt giá trị đường dẫn của ảnh vào biến path_to_image trong file main.py:
 
 ![image](https://github.com/toibaonguyen/Demo-fpt/assets/103349629/a4e6709b-2a6e-4aa7-a848-fa2fc2764f6d)
 
-Bước 9: Chạy file main.py dựa vào nút sau hoặc có thể sử dụng cmd để chạy:
+- Bước 9: Chạy file main.py dựa vào nút sau hoặc có thể sử dụng cmd để chạy:
 
 ![image](https://github.com/toibaonguyen/Demo-fpt/assets/103349629/302530c8-6b4f-445c-864b-30100ca4586e)
 
-Bước 10: Kiểm tra output trong file output.txt:
+- Bước 10: Kiểm tra output trong file output.txt:
 
 ![image](https://github.com/toibaonguyen/Demo-fpt/assets/103349629/2fed226b-0f83-4422-a522-6ce933056b1e)
 
@@ -52,8 +52,9 @@ Bước 10: Kiểm tra output trong file output.txt:
   ![image](https://github.com/toibaonguyen/Demo-fpt/assets/103349629/5c2b77fb-eca9-4b1f-b601-17cb50bd4a3b)
   
   Lý do là vì các text trong ô của 2 cột sau quá sát nhau:
-  
-  ![image](https://github.com/toibaonguyen/Demo-fpt/assets/103349629/e84b82ae-2d36-4217-88fe-10bc6ea0c505)
+
+  ![image](https://github.com/toibaonguyen/Demo-fpt/assets/103349629/ac75d768-843e-4e4f-a4f3-03e09ee3ea32)
+
   
 - Ngoài ra có thể sử dụng những model ocr tiếng việt khác để thay thế khi detect text trong từng ô.
 
